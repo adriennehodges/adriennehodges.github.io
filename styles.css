@@ -1,7 +1,7 @@
 .container {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: #FFFF;
 }
 
 header {
@@ -37,11 +37,11 @@ header nav ul li a {
 	margin-right: 40px;
 	margin-left: 40px;
 	text-decoration: none;
-	color: #c2c1bc;
+	color: #92A8C8;
 }
 
 header nav ul li a:hover {
-	color: #C4dad5;
+	color: #FDC47E;
 }
 
 #content {
@@ -56,3 +56,13 @@ header nav ul li a:hover {
 	margin-left: 5px;
 	margin-bottom: 5px;
 }	
+
+.ads {
+	display: block;
+	text-align: center;
+	margin-top: 35px;
+}
+
+#first {
+	margin-top: 5px;
+}
