@@ -48,6 +48,7 @@ table {
 }
 
 /* <------------------------- HOME AND LOGOS PAGE CSS ---------------------> */
+
 .container {
 	width: 960px;
 	margin: 0 auto;
@@ -67,47 +68,36 @@ header div.logo {
 	margin-top: 25px;
 }
 
-#content {
-	width: 960px;
-	margin: 0 auto;
-}
-
 .project {
 	display: inline-block;
 	margin-top: 5px;
 	margin-right: 5px;
-	margin-left: 5px;
+	margin-left: 10px;
 	margin-bottom: 5px;
 }	
+
+footer {
+	clear: both;
+	margin: 100px;
+	text-align: center;
+}
 
 /* <------------------------- BISON PAGE CSS ---------------------> */
 
 .ads {
-	display: block;
-	text-align: center;
-	margin-top: 35px;
-}
-
-#first {
-	margin-top: 5px;
+	display: inline block;
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
 }
 
 /* <------------------------- WEB PAGE CSS ---------------------> */
-
-/* <-----this doesnt work for some reason
-want to center the candle stuff on the page
-
-.candle-stuff {
-	margin: 0 auto;
-}
-
-------------------------->*/
 
 .wrapper {
 	position: relative;
 	display: inline-block;
 	float: left;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .wax-color {
@@ -126,7 +116,7 @@ want to center the candle stuff on the page
 
 .product-title {
 	float: left;
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-left: 40px;
 	text-transform: uppercase;
 	text-align: left;
@@ -136,7 +126,7 @@ want to center the candle stuff on the page
   	color: #555;
 }
 
-p {
+.candle-stuff p {
 	margin-top: 20px;
 	margin-left: 40px;
 	line-height: 20px;
@@ -152,23 +142,26 @@ p {
   float: left;
   margin-left: 40px;
   height: 325px;
-  width: 330px;
-  background-color: #fafafa;
-  border-radius: 5px;
-  border: 1px solid;
-  border-color: #ededed;
+  width: 400px;
+}
+
+.fragrance_name {
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	color: #555;
 }
 
 div .it_takes_two_to_mango {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 35px;
+	margin-top: 9px;
 	width: 69px;
 	height: 60px;
 	background-color: #fbb040;
-	border: 1px solid;
-  	border-color: #ededed;
+	border: 1.5px solid;
+  	border-color: #939393;
   	cursor: pointer; cursor: hand;
 }
 
@@ -176,12 +169,12 @@ div .go_ahead_make_my_daisy {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 35px;
+	margin-top: 9px;
 	width: 69px;
 	height: 60px;
 	background-color: #ffe14f;
 	border: 1px solid;
-  	border-color: #ededed;
+  	border-color: #939393;
   	cursor: pointer; cursor: hand;
 }
 
@@ -189,12 +182,12 @@ div .espresso_yourself {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 35px;
+	margin-top: 9px;
 	width: 69px;
 	height: 60px;
 	background-color: #948671;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -202,12 +195,12 @@ div .romancing_the_scone {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 35px;
+	margin-top: 9px;
 	width: 69px;
 	height: 60px;
 	background-color: #d4a67c;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -220,7 +213,7 @@ div .you_drive_me_coconuts {
 	height: 60px;
 	background-color: #9cc5ca;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -233,7 +226,7 @@ div .toucan_play_this_game {
 	height: 60px;
 	background-color: #0073ae;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -246,7 +239,7 @@ div .oh_say_can_you_sea {
 	height: 60px;
 	background-color: #006b6e;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -258,7 +251,7 @@ div .can_you_pear_me_now {
 	height: 60px;
 	background-color: #b0bc22;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -270,7 +263,7 @@ div .thyme_and_a_half {
 	height: 60px;
 	background-color: #4b721d;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -282,7 +275,7 @@ div .did_you_ask_persimmon {
 	height: 60px;
 	background-color: #fab077;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -294,7 +287,7 @@ div .a_walk_down_plumeria_lane {
 	height: 60px;
 	background-color: #f16682;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -306,7 +299,7 @@ div .kiss_me_im_iris {
 	height: 60px;
 	background-color: #eeb6d4;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -318,7 +311,7 @@ div .knock_on_wood {
 	height: 60px;
 	background-color: #b6b8ba;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;
 }
 
@@ -330,23 +323,120 @@ div .ive_got_a_crush_on_yuzu {
 	height: 60px;
 	background-color: #fff6dc;
 	border: 1px solid;
-	border-color: #ededed;
+	border-color: #939393;
 	cursor: pointer; cursor: hand;	
+}
+
+.line {
+	clear: both;
+	margin-top: 525px;
+	width:100%;
+	height:5px;
+	background: #939393;
+}
+
+#tab-container {
+  margin-top: 40px;	
+  font-family: "Helvetica", sans-serif;
+  color: #444;
+}
+
+.active{
+  background-color: white !important;
+  position: relative;
+  top: 1px;
+}
+
+#tabs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#tabs li {
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: medium;
+  letter-spacing: 1px;
+  border: 1px solid #D0D0D0;
+  border-bottom: none;
+  background-color: #F2F2F2;
+  color: #828282;
+}
+
+#tabs li:hover {
+  cursor: pointer;
+}
+
+#tabs li:not(.active):hover{
+  background-color: #ECECEC;
+}
+
+#tabs li.active {
+  background-color: white;
+  color: #444;
+}
+
+#tab .overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -3px;
+  border-color: 4px solid #fff;
+  background-color: #fff;
+}
+
+#tabs li.active > .overlay {
+  display: block;
+}
+
+#tab-content {
+  padding: 15px 10px;
+  border: 1px solid #D0D0D0;
+}
+
+#tab-content .tab_section:not(.active) {
+  display: none;
 }
 
 /* <------------------------- ABOUT PAGE CSS ---------------------> */
 
+.bio {
+	margin-left: 100px;
+}
+
 .bio img {
 	display: inline-block;
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-left: 6px;
 	float: left;
+}
+
+h2 {
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+  	font-size: 20px;
+  	color: #555;
 }
 
 .bio p {
 	display: inline-block;
 	float: left;
+	margin-left: 20px;
 	margin-top: 15px;
-	width: 500px;
-	font-size: 13px;
+	margin-bottom: 100px;
+	width: 425px;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-align: left;
+	line-height: 16px;
 }

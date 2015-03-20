@@ -123,4 +123,33 @@ jQuery(document).ready(function($) {
     
     });
 
+
+  $('.fragrances div').click(function(){
+    
+    var name = $(this).attr('alt');
+    
+    $('.fragrance_name').html('<p>' + name + '</p>');
+    
+    });
+  
+  $('.tab').click(function() {
+    
+    /* Store tab we clicked on in variable */
+    var $tab = $(this);
+    
+    /* Index of <li> we just clicked */
+    var index = $tab.index();
+    
+    /* Grab respective tab_section at same index */
+    var $tab_content = $('.tab_section').eq(index);
+    
+    if (!$tab.hasClass('active')) {
+      $tab.addClass('active');
+      $tab.siblings().removeClass('active');
+      $tab_content.addClass('active');
+      $tab_content.siblings().removeClass('active');
+    }
+    
+  });
+
 });
