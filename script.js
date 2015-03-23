@@ -22,15 +22,6 @@ jQuery(document).ready(function($) {
 
   });
 
-  $('#blergh img').mouseenter(function() {
-
-    $(this).attr("src", "images/blergh" + altImage).mouseleave(function() {
-
-    $(this).attr("src", "images/blergh.png")
-
-    });
-
-  });
 
   $('#resume img').mouseenter(function() {
 
@@ -114,6 +105,17 @@ jQuery(document).ready(function($) {
 
   });
 
+  $('#codepen img').mouseenter(function() {
+
+    $(this).attr("src", "images/codepen" + altImage).mouseleave(function() {
+
+    $(this).attr("src", "images/codepen.png")
+
+    });
+
+  });
+
+/* Candle on Web Page */
 
   $('.fragrances div').click(function(){
     
@@ -132,6 +134,10 @@ jQuery(document).ready(function($) {
     
     });
   
+/* END Candle on Web Page */
+
+/* TABS on Web Page */
+
   $('.tab').click(function() {
     
     /* Store tab we clicked on in variable */
@@ -151,5 +157,7 @@ jQuery(document).ready(function($) {
     }
     
   });
+
+ /* END TABS on Web Page */ 
 
 });
