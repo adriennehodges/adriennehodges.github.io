@@ -159,13 +159,13 @@ h1 {
 
 .video-box {
 	position: relative;
-	height: 450px;
+	height: 400px;
 	width: 960px;
 }
 
 iframe {
 	position: absolute;
-    top: 50px;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -175,8 +175,21 @@ iframe {
 
 /* <------------------------- FHC PAGE CSS ---------------------> */
 
-.ads-container {
-	margin-top: 280px;
+.fhc-video-box {
+	position: relative;
+	height: 300px;
+	width: 960px;
+	
+}
+
+iframe {
+	position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 /* <------------------------- WEB PAGE CSS ---------------------> */
@@ -215,20 +228,19 @@ iframe {
   	color: #555;
 }
 
-.candle-stuff p {
+.product-description {
 	float: left;
 	margin-top: 20px;
 	margin-left: 40px;
 	line-height: 20px;
   	height: 75px;
-  	width: 400px;
+  	width: 375px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	text-align: left;
 	color: #555;
 }
 
 .fragrance_name {
-	float: left;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	text-align: left;
 	color: #555;
@@ -238,14 +250,13 @@ iframe {
   float: left;
   margin-left: 40px;
   height: 325px;
-  width: 400px;
+  width: 375px;
 }
 
 div .it_takes_two_to_mango {
 	display: inline-block;
 	float: left;
-	margin-left: 9px;
-	margin-top: 9px;
+	margin-top: 15px;
 	width: 69px;
 	height: 60px;
 	background-color: #fbb040;
@@ -258,7 +269,7 @@ div .go_ahead_make_my_daisy {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 9px;
+	margin-top: 15px;
 	width: 69px;
 	height: 60px;
 	background-color: #ffe14f;
@@ -271,7 +282,7 @@ div .espresso_yourself {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 9px;
+	margin-top: 15px;
 	width: 69px;
 	height: 60px;
 	background-color: #948671;
@@ -284,7 +295,7 @@ div .romancing_the_scone {
 	display: inline-block;
 	float: left;
 	margin-left: 9px;
-	margin-top: 9px;
+	margin-top: 15px;
 	width: 69px;
 	height: 60px;
 	background-color: #d4a67c;
@@ -296,7 +307,6 @@ div .romancing_the_scone {
 div .you_drive_me_coconuts {
 	display: inline-block;
 	float: left;
-	margin-left: 9px;
 	margin-top: 10px;
 	width: 69px;
 	height: 60px;
@@ -346,7 +356,6 @@ div .can_you_pear_me_now {
 
 div .thyme_and_a_half {
 	display: inline-block;float: left;
-	margin-left: 9px;
 	margin-top: 10px;
 	width: 69px;
 	height: 60px;
@@ -394,7 +403,6 @@ div .kiss_me_im_iris {
 
 div .knock_on_wood {
 	display: inline-block;float: left;
-	margin-left: 9px;
 	margin-top: 10px;
 	width: 69px;
 	height: 60px;
