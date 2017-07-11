@@ -61,6 +61,10 @@ header {
 	text-align: center;
 }
 
+header .container {
+	margin-bottom: 20px;
+}
+
 .main-nav {
 	margin-top: 25px;
 }
@@ -73,6 +77,25 @@ header {
 
 .nav-item:nth-child(2){
 	margin-left: 20px;
+}
+
+#resume {
+	background-color: #ffaaaa;
+    height: 280px;
+    width: 307px;
+    cursor: pointer;
+}
+
+#resume a {
+	text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: inherit;
+    font-weight: 800;
+    margin-top: 40%;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .project {
