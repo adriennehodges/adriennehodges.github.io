@@ -49,21 +49,55 @@ table {
 
 /* <------------------------- INDEX PAGE ---------------------> */
 
-.container {
-	width: 960px;
-	margin: 0 auto;
+body {
 	background-color: #FFF;
 }
 
-header {
-	margin-top: 25px;
-	background-color: #fff;
+/* page border styles */
+
+#top, #bottom, #left, #right {
+	background: #EEEEFE;
+	position: fixed;
+}
+
+#left, #right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+	left: 0; right: 0;
+	height: 15px;
+}
+
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+/* end page border styles */
+
+header .container {
+	max-width: 50%;
+	margin: auto;
+	margin-top: 125px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
-header .container {
-	margin-bottom: 20px;
+header .container .intro h1 {
+	color: #8e8e98;
+	font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 40px;
 }
+
+
+
+
+
+
 
 .main-nav {
 	margin-top: 25px;
@@ -111,16 +145,13 @@ header .container {
 footer {
 	clear: both;
 	text-align: center;
-	background-color: #B1DADA;
 	width: 100%;
 	height: 94px;
 }
 
 footer p {
-	padding-top: 40px;
 	color: #8B8CC4;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
   	font-size: 13px;
   	text-transform: uppercase;
 }
@@ -170,33 +201,43 @@ footer p {
     background: transparent;
     margin-bottom: 53px;
     padding-left: 0;
-    &:focus, &:hover {
-        color: $c-pink;
-        outline: none;
-        -webkit-transition: 200ms all ease-in-out;
-        transition: 200ms all ease-in-out;
-        &:after {
-            border-left-color: #f6d5d5;
-            -webkit-transition: 200ms all ease-in-out;
-            transition: 200ms all ease-in-out;
-        }
-    }
-    &:after {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 0;
-        display: block;
-        border-top: 3px solid transparent;
-        border-bottom: 3px solid transparent;
-        border-left: 3px solid #000000;
-        border-right: none;
-        border-left-width: 5px;
-        top: 16px;
-        right: -16px;
-    }
 }
 
+.category .cat-info .learn-more-button button::focus {
+	color: $c-pink;
+    outline: none;
+    -webkit-transition: 200ms all ease-in-out;
+    transition: 200ms all ease-in-out;
+}
+
+.category .cat-info .learn-more-button button::hover {
+	color: $c-pink;
+    outline: none;
+    -webkit-transition: 200ms all ease-in-out;
+    transition: 200ms all ease-in-out;
+}
+
+.category .cat-info .learn-more-button button::after {
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid #000000;
+    border-right: none;
+    border-left-width: 5px;
+    top: 16px;
+    right: -16px;
+}
+
+.category .cat-info .learn-more-button button::hover::after {
+	border-left-color: #f6d5d5;
+    -webkit-transition: 200ms all ease-in-out;
+    transition: 200ms all ease-in-out;
+}
+    
 .category .cat-info .learn-more-button span {
     text-transform: uppercase;
     font-size: 18px;
@@ -206,7 +247,6 @@ footer p {
 /* <------------------------- BISON PAGE CSS ---------------------> */
 
 h1 {
-	text-transform: uppercase;
 	text-align: center;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-weight: 400;
