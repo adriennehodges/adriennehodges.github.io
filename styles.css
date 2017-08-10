@@ -56,7 +56,7 @@ body {
 /* page border styles */
 
 #top, #bottom, #left, #right {
-	background: #EEEEFE;
+	background: #d9d9ec;
 	position: fixed;
 }
 
@@ -81,17 +81,54 @@ body {
 header .container {
 	max-width: 50%;
 	margin: auto;
-	margin-top: 125px;
-	margin-bottom: 20px;
+	margin-top: 200px;
+	margin-bottom: 120px;
 	text-align: center;
 }
 
 header .container .intro h1 {
+	margin-bottom: 10px;
 	color: #8e8e98;
-	font-size: 32px;
+	font-size: 52px;
     font-family: 'Nunito', sans-serif;
     line-height: 40px;
+    text-transform: uppercase;
 }
+
+header .container .intro h4 {
+	color: #8B8CC4;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+button {
+	border: 3px solid #8B8CC4;
+	border-radius: 8px;
+    background: #FFF;
+    padding: 20px 40px;
+}
+
+button:hover {
+	border-color: #d9d9ec;
+}
+
+button a {
+	font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    color: #8B8CC4;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #d9d9ec;
+}
+
+
+
+
 
 
 
