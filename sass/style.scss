@@ -1,0 +1,72 @@
+@import "compass/reset";
+@import "compass/css3";
+ 
+body {
+	#top, #bottom, #left, #right {
+		background: #d9d9ec;
+		position: fixed;
+	}
+
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+	}
+
+	#left { left: 0; }
+	#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+	}
+
+	#top { top: 0; }
+	#bottom { bottom: 0; }
+
+	header {
+		.container {
+			max-width: 50%;
+			margin: auto;
+			margin-top: 200px;
+			margin-bottom: 120px;
+			text-align: center;
+			.intro {
+				h1 {
+					margin-bottom: 10px;
+					color: #8e8e98;
+					font-size: 52px;
+				    font-family: 'Nunito', sans-serif;
+				    line-height: 40px;
+				    text-transform: uppercase;
+				}
+				h4 {
+					color: #8B8CC4;
+				    font-family: 'Nunito', sans-serif;
+				    text-transform: uppercase;
+				    font-size: 24px;
+				}
+			}
+		}
+	}
+
+	button {
+		border: 3px solid #8B8CC4;
+		border-radius: 8px;
+	    background: #FFF;
+	    padding: 20px 40px;
+	    &:hover {
+	    	border-color: #d9d9ec;
+	    }
+	    a {
+	    	font-family: 'Nunito', sans-serif;
+		    text-transform: uppercase;
+		    font-size: 16px;
+		    font-weight: 100;
+		    color: #8B8CC4;
+		    text-decoration: none;
+		    &:hover {
+		    	color: #d9d9ec;
+		    }
+	    }
+	}
+}
