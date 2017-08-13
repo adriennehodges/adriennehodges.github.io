@@ -94,5 +94,17 @@ body {
 		  	font-size: 13px;
 		  	text-transform: uppercase;
 		}
+		.social {
+			    margin: 20px;
+			ul li {
+				display: inline-block;
+				a .icon {
+					width: 25px;
+	    			height: 25px;
+	    			display: block;
+	    			background-color: pink;
+				}
+			}
+		}
 	}	
 }

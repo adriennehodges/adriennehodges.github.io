@@ -174,3 +174,18 @@ body footer h6 {
   font-size: 13px;
   text-transform: uppercase;
 }
+/* line 97, ../sass/style.scss */
+body footer .social {
+  margin: 20px;
+}
+/* line 99, ../sass/style.scss */
+body footer .social ul li {
+  display: inline-block;
+}
+/* line 101, ../sass/style.scss */
+body footer .social ul li a .icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-color: pink;
+}
