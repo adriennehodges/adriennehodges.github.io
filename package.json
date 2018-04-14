@@ -1,0 +1,26 @@
+{
+  "name": "adrisite",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriennehodges/adriennehodges.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriennehodges/adriennehodges.github.io/issues"
+  },
+  "homepage": "https://github.com/adriennehodges/adriennehodges.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
